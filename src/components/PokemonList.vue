@@ -60,6 +60,8 @@ export default {
   gap: 30px;
   justify-content: center;
   padding: 30px 0;
+  opacity: 0;
+  animation: show 2s 2s ease-in forwards;
 }
 
 .loader {
@@ -77,6 +79,13 @@ export default {
   -ms-transform: translateZ(0);
   transform: translateZ(0);
 }
+
+@keyframes show {
+    100%{
+        opacity: 1;
+    }
+}
+
 @-webkit-keyframes load4 {
   0%,
   100% {
