@@ -491,6 +491,7 @@ export default {
             text-align: center;
             border-radius: 5px;
             border: 4px solid #000;
+            text-transform: capitalize;
           }
         }
       }

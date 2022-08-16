@@ -6,7 +6,7 @@
         <img :src="getUrl" alt="Pokemon_img" class="pokemon" />
       </div>
       <div class="card__container__texts">
-        <h2>{{pokemon.name}}</h2>
+        <h2>#{{pokemon.id}} - {{pokemon.name}}</h2>
       </div>
     </div>
   </div>
@@ -104,6 +104,7 @@ export default {
             font-size: 1.5rem;
             font-weight: 500;
             letter-spacing: 1px;
+            text-transform: capitalize;
         }
     }
   }
